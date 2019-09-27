@@ -15,4 +15,11 @@ Rails.application.routes.draw do
   put "/professor/atualizar/:id" => "professores#update"
   delete "/professor/deletar/:id" => "professores#delete"
 
+   # Rotas para avaliacao
+   get "/avaliacoes" => "avaliacoes#index"
+   get "/avaliacao/:id" => "avaliacoes#show"
+   post "/adicionar/avaliacao" => "avaliacoes#create"
+   put "/avaliacao/atualizar/:id" => "avaliacoes#update"
+   delete "/avaliacao/deletar/:id" => "avaliacoes#delete"
+
 end

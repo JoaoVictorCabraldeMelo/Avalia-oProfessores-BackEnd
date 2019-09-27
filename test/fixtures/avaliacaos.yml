@@ -1,0 +1,13 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  aula: MyText
+  didatica: MyText
+  prova: MyText
+  trabalho: MyText
+
+two:
+  aula: MyText
+  didatica: MyText
+  prova: MyText
+  trabalho: MyText
